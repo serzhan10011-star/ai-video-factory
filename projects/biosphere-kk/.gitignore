@@ -3,3 +3,4 @@ test/
 out/part*.mp4
 out/log*.txt
 audio/
+out/
