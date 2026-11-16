@@ -8,7 +8,7 @@ Fully procedural ~74 s, 1920×1080, 24 fps educational film rendered from code:
   - Water cycle (evaporation, condensation, precipitation, transpiration, runoff/groundwater) with particles and flow arrows.
   - Carbon cycle forest (photosynthesis, food chain, respiration, decomposition, storage in soil and water).
   - Final globe with a glowing interconnection network.
-- **Voice**: Kazakh narration via `espeak-ng -v kk` (offline). Swap `audio/raw*.wav` for a professional voice (e.g. ElevenLabs) and re-mux.
+- **Voice**: natural Kazakh neural voice (Microsoft `kk-KZ-DauletNeural` via edge-tts, `voice.py`), one clip per subtitle sentence.
 - **Music**: procedural ambient score (`music.py`, numpy/scipy).
 - **Text**: all on-screen text in Kazakh (Montserrat Cyrillic).
 
